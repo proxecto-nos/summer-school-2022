@@ -1,8 +1,8 @@
 ## Where the samples will be written
 save_data: data
 ## Where the vocab(s) will be written
-src_vocab: example.vocab.src
-tgt_vocab: example.vocab.tgt
+src_vocab: vocab/example.vocab.src
+tgt_vocab: vocab/example.vocab.tgt
 # Prevent overwriting existing files in the folder
 overwrite: True
 
