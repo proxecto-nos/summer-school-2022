@@ -4,7 +4,7 @@ save_data: summer-school-2022/data
 src_vocab: summer-school-2022/vocab/example.vocab.src
 tgt_vocab: summer-school-2022/vocab/example.vocab.tgt
 # Prevent overwriting existing files in the folder
-overwrite: False
+overwrite: True
 
 # Corpus opts:
 data:
