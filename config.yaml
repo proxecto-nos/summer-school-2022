@@ -1,16 +1,16 @@
 ## Where the samples will be written
-save_data: data
+save_data: summer-school-2022/data
 ## Where the vocab(s) will be written
-src_vocab: vocab/example.vocab.src
-tgt_vocab: vocab/example.vocab.tgt
+src_vocab: summer-school-2022/vocab/example.vocab.src
+tgt_vocab: summer-school-2022/vocab/example.vocab.tgt
 # Prevent overwriting existing files in the folder
-overwrite: True
+overwrite: False
 
 # Corpus opts:
 data:
     corpus_1:
-        path_src: src-train.txt
-        path_tgt: tgt-train.txt
+        path_src: summer-school-2022/src-train.txt
+        path_tgt: summer-school-2022/tgt-train.txt
     valid:
-        path_src: src-val.txt
-        path_tgt: tgt-val.txt
+        path_src: summer-school-2022/src-val.txt
+        path_tgt: summer-school-2022/tgt-val.txt
