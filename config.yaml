@@ -14,3 +14,13 @@ data:
     valid:
         path_src: summer-school-2022/src-val.txt
         path_tgt: summer-school-2022/tgt-val.txt
+
+
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: summer-school-2022/data
+save_checkpoint_steps: 50
+train_steps: 200
+valid_steps: 50
